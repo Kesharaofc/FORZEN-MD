@@ -15,12 +15,12 @@ global.devs = '94760018802';
 global.website = 'https://github.com/yasiyaofc1/FORZEN-MD' //wa.me/+94760018802
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0b5a7839e8ee21874921e.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'FORZEN MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'YASIYA OFC' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '𝐐𝐮𝐞𝐞𝐧 𝐅𝐨𝐫𝐳𝐞𝐧' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'ᴍʀ ᴘᴀᴍɪᴅᴜ ᴋᴇꜱʜᴀʀᴀ' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'YASIYA OFC' : process.env.PACK_INFO.split(";")[0],
+  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '𝐌𝐑 𝐤𝐞𝐬𝐡𝐚𝐫𝐚' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'FORZEN MD' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝐐𝐮𝐞𝐞𝐧 𝐅𝐨𝐫𝐳𝐞𝐧' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
@@ -34,7 +34,7 @@ module.exports = {
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
   BRANCH: 'main', 
-  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
+  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '🧚‍♂️ *හායි කොහොමද ඉතින් මොකද කරන්න ඔයා* 💖' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
